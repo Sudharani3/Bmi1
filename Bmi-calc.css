@@ -1,0 +1,58 @@
+body{
+    background : rgb(225, 15, 50);
+    }
+    .container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+      
+    h1 {
+        color: #fdb808f3;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+      
+    .input-container {
+        margin-bottom: 10px;
+    }
+      
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+      
+    input[type='number'] {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+      
+    .calculate-btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #5a068a;
+        color: #d6f90f;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+      
+    .result {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #82f782;
+        border-radius: 4px;
+    }
+      
+    .bmi-value {
+        font-weight: bold;
+    }
+      
+    .bmi-message {
+        color: #ff00a6;
+        font-weight: bold;
+    }
